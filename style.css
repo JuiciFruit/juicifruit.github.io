@@ -1,9 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
+::selection {
+    background: rgba(180, 180, 180, 0.8);
+    text-shadow: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .nav {
     background-color: #3d3d3e;
     height: 60px;
     line-height: 60px;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 
 .nav-list {
@@ -54,11 +76,6 @@
 }
 
 .container {
-    -webkit-user-select: none;
-       -moz-user-select: -moz-none;
-        -ms-user-select: none;
-            user-select: none;
-    cursor: default;
     background-color: #ddd;
     height: 100%;
     width: 100%;
@@ -90,6 +107,13 @@
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #accordion {
