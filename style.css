@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+.nav {
+    background-color: #3d3d3e;
+    height: 60px;
+    line-height: 60px;
+}
+
+.nav-list {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    list-style-type: none;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.nav-button {
+    background-color: #3d3d3e;
+    display: inline-block;
+    padding: 0px 16px;
+    cursor: pointer;
+    color: #76daff;
+}
+
+.nav-button-selected {
+    background-color: #ddd;
+    color: #222;
+}
+
+.nav-button-hover {
+    background-color: #565658;
+    color: #76e6ff;
+}
+
+.nav-list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.author {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ddd;
+    padding-right: 30px;
+    padding-left: 30px;
+    float: right;
+    text-align: center;
+    display: inline-block;
+    background-color: #4a4a4b;
+}
+
+.container {
+    -webkit-user-select: none;
+       -moz-user-select: -moz-none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: default;
+    background-color: #ddd;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.title {
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-left: 2%;
+    float: left;
+}
+
+.button {
+    font-family: 'Consolas';
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#accordion {
+    margin-left: 2%;
+    margin-right: 2%;
+    clear: both;
+    display: none;
+}
+
+#accordion a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dl-rec {
+    background-color: #5cb85c;
+}
+.dl-rec:hover {
+    background-color: #6ec06c;
+}
+
+.dl-beta {
+    background-color: #eea236;
+}
+.dl-beta:hover {
+    background-color: #f0ad4e;
+}
+
+.dl-dev {
+    background-color: #de4c13;
+}
+.dl-dev:hover {
+    background-color: #ec581f;
+}
+
+.bukkit {
+    background-color: #0892d0;
+}
+.bukkit:hover {
+    background-color: #09a3e9;
+}
+
+.versions {
+    background-color: #a0a0a0;
+}
+.versions:hover {
+    background-color: #a8a8a8;
+}
+
+.ui-tooltip {
+    font-size: 12px;
+    font-family: 'Consolas';
+}
+
+.ui-state-focus {
+    outline: none;
+}
+
+.ui-accordion-header {
+    outline: none;
+}
+
+.old {
+    height: 200px;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0f0f0;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    font-family: 'Consolas';
+    font-size: 16px;
+    display: none;
+}
+
+.old div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.old p {
+    padding: 10px;
+}
+
+.content {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    clear: both;
+}
+
+.page {
+    position: absolute;
+    z-index: 0;
+    height: 93%;
+    width: 100%;
+    overflow-y: auto;
+    padding-bottom: 5px;
+}
+
+.menu {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #4a4a4b;
+    color: #eee;
+    float: right;
+    width: 180px;
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+}
+
+.menu p:hover {
+    background-color: #f0f0f0;
+    color: #4a4a4b;
+}
