@@ -30,5 +30,3 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 RewriteRule ^favicon.ico$ icon.ico [L]
-
-Redirect 301 /capes http://raw.githubusercontent.com/JuiciFruit/juicifruit.github.io/master/capes/
