@@ -1,14 +1,14 @@
 
 # DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:eHB8VG
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^juicy66173.github.io$
+RewriteCond %{HTTP_HOST} ^juicifruit.github.io$
 RewriteRule ^bukkitdev$ http://dev.bukkit.org/profiles/JuicyDev/ [R=301,L]
 # DO NOT REMOVE THIS LINE AND THE LINES ABOVE eHB8VG:REDIRECTID
 
 
 # DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:bfhNqM
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^juicy66173.github.io$
+RewriteCond %{HTTP_HOST} ^juicifruit.github.io$
 RewriteRule ^bukkit$ http://forums.bukkit.org/members/juicydev.90927873/ [R=301,L]
 # DO NOT REMOVE THIS LINE AND THE LINES ABOVE bfhNqM:REDIRECTID
 
@@ -30,3 +30,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 RewriteRule ^favicon.ico$ icon.ico [L]
+
+Redirect 301 /capes http://raw.githubusercontent.com/JuiciFruit/juicifruit.github.io/master/capes/
