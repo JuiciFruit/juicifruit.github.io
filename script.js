@@ -38,11 +38,6 @@ $(function() {
         $(this).attr('title', str);
     });
     
-    $('.bukkit').each(function() {
-        $(this).attr('title', 'BukkitDev Page');
-        $(this).next('a').attr('target', '_blank');
-    });
-    
     $('.versions').each(function() {
         $(this).attr('title', 'Older Versions');
     });
